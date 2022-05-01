@@ -19,6 +19,17 @@
 
         //CONSTANTE (no se puede cambiar)
         define("PI", 3.14);
+
+        //Array
+        $colors = array("red", "green", "blue");
+
+        //Matriz asociativa
+        $edad = array(
+            'Juan' => 35,
+            "David" => 22,
+            "Mark" => 17
+        );
+        echo $edad["Juan"];//Deberia salir 35
     ?>
 
     
